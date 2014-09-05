@@ -16,8 +16,9 @@
 #Next, set your working directory. This way you can save throughout without naming new file paths.
 #A working directory lets R know where to look for files and data you reference, and where to deposit output you save
 setwd("/Users/sbouchat/Dropbox/WISC/Classes/2014-Fall/TAing/812Section")
-
-#Remember that your slashes will go in the other direction if you're using Windows
+#If you are using Winstat or the SSCC computers, use your U drive this way
+setwd("U:/Section")
+#In order to do this, you must have a folder named "Section" (or whatever you'd like to call it) in your U drive already. To get to the U drive, click on the Windows button on the menu bar, and then your name. It should be in the list of drives on the left
 
 #####################################
 # STEP 2: DATA
